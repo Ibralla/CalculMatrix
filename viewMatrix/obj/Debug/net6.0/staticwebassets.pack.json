@@ -1,15 +1,15 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\GABERA\\source\\PrésentationPOC\\viewMatrix\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\viewMatrix.bundle.scp.css",
+      "Id": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\viewMatrix\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\viewMatrix.bundle.scp.css",
       "PackagePath": "staticwebassets\\viewMatrix.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\GABERA\\source\\PrésentationPOC\\viewMatrix\\wwwroot\\background.png",
+      "Id": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\viewMatrix\\wwwroot\\background.png",
       "PackagePath": "staticwebassets\\background.png"
     },
     {
-      "Id": "C:\\Users\\GABERA\\source\\PrésentationPOC\\viewMatrix\\wwwroot\\exampleJsInterop.js",
+      "Id": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\viewMatrix\\wwwroot\\exampleJsInterop.js",
       "PackagePath": "staticwebassets\\exampleJsInterop.js"
     },
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XOTu6VCkpqWskbA/NYXgFzc+2Qz2bqvYlRcUjqn+Y4axh2Rk9RGGtew8HnHCgQvaxm4wEEqRAFEDMEyXlnmZzA==",
+  "dgSpecHash": "KDD48Z+UAHxvVhuJqBaGhj1LuqOFpPs97vPmJS579Vn/0jo8Eonj+zEifcRasz9MC80AwIJrmMn62F7PbbGoIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrixCalculatorClient\\MatrixCalculatorClient.csproj",
+  "projectFilePath": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\MatrixCalculatorClient\\MatrixCalculatorClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GABERA\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.11\\microsoft.aspnetcore.authorization.6.0.11.nupkg.sha512",
     "C:\\Users\\GABERA\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.11\\microsoft.aspnetcore.components.6.0.11.nupkg.sha512",
