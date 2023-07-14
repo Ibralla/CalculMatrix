@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = viewMatrix
 build_property.RootNamespace = viewMatrix
-build_property.ProjectDir = C:\Users\GABERA\source\PrésentationPOC\viewMatrix\
+build_property.ProjectDir = C:\Users\GABERA\source\repos\CalculMatrix\viewMatrix\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\GABERA\source\PrésentationPOC\viewMatrix
+build_property.MSBuildProjectDirectory = C:\Users\GABERA\source\repos\CalculMatrix\viewMatrix
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/GABERA/source/PrésentationPOC/viewMatrix/_Imports.razor]
+[C:/Users/GABERA/source/repos/CalculMatrix/viewMatrix/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/GABERA/source/PrésentationPOC/viewMatrix/DeterminantMatrixUI.razor]
+[C:/Users/GABERA/source/repos/CalculMatrix/viewMatrix/DeterminantMatrixUI.razor]
 build_metadata.AdditionalFiles.TargetPath = RGV0ZXJtaW5hbnRNYXRyaXhVSS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-47ei1z820v
 
-[C:/Users/GABERA/source/PrésentationPOC/viewMatrix/InverseMatrixUI.razor]
+[C:/Users/GABERA/source/repos/CalculMatrix/viewMatrix/InverseMatrixUI.razor]
 build_metadata.AdditionalFiles.TargetPath = SW52ZXJzZU1hdHJpeFVJLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-rhf1wt1ze9
 
-[C:/Users/GABERA/source/PrésentationPOC/viewMatrix/MatrixCalculator.razor]
+[C:/Users/GABERA/source/repos/CalculMatrix/viewMatrix/MatrixCalculator.razor]
 build_metadata.AdditionalFiles.TargetPath = TWF0cml4Q2FsY3VsYXRvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-pk3ppwviwd
 
-[C:/Users/GABERA/source/PrésentationPOC/viewMatrix/MatrixViewer.razor]
+[C:/Users/GABERA/source/repos/CalculMatrix/viewMatrix/MatrixViewer.razor]
 build_metadata.AdditionalFiles.TargetPath = TWF0cml4Vmlld2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-5qodw6w12t
 
-[C:/Users/GABERA/source/PrésentationPOC/viewMatrix/SimpleMatrixUI.razor]
+[C:/Users/GABERA/source/repos/CalculMatrix/viewMatrix/SimpleMatrixUI.razor]
 build_metadata.AdditionalFiles.TargetPath = U2ltcGxlTWF0cml4VUkucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-wml928cjjw
 
-[C:/Users/GABERA/source/PrésentationPOC/viewMatrix/Test.razor]
+[C:/Users/GABERA/source/repos/CalculMatrix/viewMatrix/Test.razor]
 build_metadata.AdditionalFiles.TargetPath = VGVzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-8pspqbcm4f

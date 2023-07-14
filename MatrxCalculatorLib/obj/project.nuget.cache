@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QtUW500mPNjscBV/ypC4JapoPous3ZEmTMhJ7ZKu1dlMGb9tb7ANKKoCHJ31jIEdBf3BWLDpVHLRMlLMqjs48g==",
+  "dgSpecHash": "3YX1i9NVRizrLj3gBvrEO0o2BULQR1dfWNqTtZFokn7vDXGvvDNIq4s4bJGXTmMRWWX/9lOeRcBDc8dq+ZCwdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj",
+  "projectFilePath": "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

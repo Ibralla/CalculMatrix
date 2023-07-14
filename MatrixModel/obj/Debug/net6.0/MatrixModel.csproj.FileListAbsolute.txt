@@ -10,3 +10,15 @@ C:\Users\GABERA\source\PrésentationPOC\MatrixModel\obj\Debug\net6.0\MatrixModel
 C:\Users\GABERA\source\PrésentationPOC\MatrixModel\obj\Debug\net6.0\refint\MatrixModel.dll
 C:\Users\GABERA\source\PrésentationPOC\MatrixModel\obj\Debug\net6.0\MatrixModel.pdb
 C:\Users\GABERA\source\PrésentationPOC\MatrixModel\obj\Debug\net6.0\ref\MatrixModel.dll
+C:\Users\GABERA\Source\Repos\CalculMatrix\MatrixModel\bin\Debug\net6.0\MatrixModel.deps.json
+C:\Users\GABERA\Source\Repos\CalculMatrix\MatrixModel\bin\Debug\net6.0\MatrixModel.dll
+C:\Users\GABERA\Source\Repos\CalculMatrix\MatrixModel\bin\Debug\net6.0\MatrixModel.pdb
+C:\Users\GABERA\Source\Repos\CalculMatrix\MatrixModel\obj\Debug\net6.0\MatrixModel.csproj.AssemblyReference.cache
+C:\Users\GABERA\Source\Repos\CalculMatrix\MatrixModel\obj\Debug\net6.0\MatrixModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GABERA\Source\Repos\CalculMatrix\MatrixModel\obj\Debug\net6.0\MatrixModel.AssemblyInfoInputs.cache
+C:\Users\GABERA\Source\Repos\CalculMatrix\MatrixModel\obj\Debug\net6.0\MatrixModel.AssemblyInfo.cs
+C:\Users\GABERA\Source\Repos\CalculMatrix\MatrixModel\obj\Debug\net6.0\MatrixModel.csproj.CoreCompileInputs.cache
+C:\Users\GABERA\Source\Repos\CalculMatrix\MatrixModel\obj\Debug\net6.0\MatrixModel.dll
+C:\Users\GABERA\Source\Repos\CalculMatrix\MatrixModel\obj\Debug\net6.0\refint\MatrixModel.dll
+C:\Users\GABERA\Source\Repos\CalculMatrix\MatrixModel\obj\Debug\net6.0\MatrixModel.pdb
+C:\Users\GABERA\Source\Repos\CalculMatrix\MatrixModel\obj\Debug\net6.0\ref\MatrixModel.dll

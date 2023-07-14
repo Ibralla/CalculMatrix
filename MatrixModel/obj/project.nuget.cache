@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/KsUd9/+cgVhVhRKgryWNxPT+Z7KCFFD94OC1k96/YmMnoDRLMC2tLuUIGJgv+WHAdclpEX1/PJ31ySq3YQZ8g==",
+  "dgSpecHash": "rdfgJFmb4UEkJTMelIQgi+yogoTrLh08qQp0vbYSTXuqFukzCiECb0871v9E06N4Cu5yZ5vVhhK7MPRMiHgFmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrixModel\\MatrixModel.csproj",
+  "projectFilePath": "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\MatrixModel\\MatrixModel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
