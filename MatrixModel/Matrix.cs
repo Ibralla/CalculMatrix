@@ -60,6 +60,139 @@ namespace MatrixModel
             return builder.ToString();
         }
 
+		public Matrix GaussJordanEliminationDeterminant()
+		{
+            int rowPermuteNumber = 0;
+
+            var matrix = this.Copy();
+
+			double multiple;
+			double pivot;
+			double tempVar;
+			var result = new Matrix(1, 1);
+            result.Matrice[0,0] = 1;
+			int k = 0; // l'indice de ligne du maximum
+			int r = -1; // r est l'indice de ligne du dernier pivot trouvé
+			for (int j = 0; j < ColumnNumber; j++) // j décrit tous les indices de colonnes
+			{
+				k = r + 1;
+				for (int i = r + 1; i < RowNumber - 1; i++)
+				{
+					if (Math.Abs(matrix.Matrice[i + 1, j]) > Math.Abs(matrix.Matrice[i, j]))
+						k = i + 1;
+				}
+				pivot = matrix.Matrice[k, j]; // A[k,j] est le pivot
+                result.Matrice[0, 0] = result.Matrice[0, 0] * pivot;
+
+				if (pivot != 0)
+				{
+					r++;
+					// A[k,j] est le pivot
+					for (int col = 0; col < ColumnNumber; col++) // Diviser la ligne k par pivot
+					{
+						matrix.Matrice[k, col] = matrix.Matrice[k, col] / pivot;
+					}
+					if (k != r)
+					{
+                        rowPermuteNumber++;
+						// Échanger les lignes k et r
+						for (int col = 0; col < ColumnNumber; col++)
+						{
+							tempVar = matrix.Matrice[k, col];
+							matrix.Matrice[k, col] = matrix.Matrice[r, col];
+							matrix.Matrice[r, col] = tempVar;
+						}
+
+					}
+					// On simplifie les autres lignes
+					for (int i = 0; i < RowNumber; i++)
+					{
+						multiple = matrix.Matrice[i, j];
+
+						if (i != r)
+						{
+							// Soustraire à la ligne i la ligne r multipliée par A[i,j] (de façon à annuler A[i,j])
+							for (int col = 0; col < ColumnNumber; col++)
+							{
+								matrix.Matrice[i, col] = matrix.Matrice[i, col] -
+									matrix.Matrice[r, col] * multiple;
+							}
+						}
+					}
+				}
+			}
+            result.Matrice[0, 0] = Math.Pow(-1, rowPermuteNumber) * result.Matrice[0, 0];
+            return result;
+		}
+
+		public Matrix GaussJordanEliminationIverse()
+        {
+			var matrix = this.Copy();
+			double multiple;
+            double pivot;
+            double tempVar;
+            var result = Identity(new Matrix(RowNumber, ColumnNumber));
+            int k = 0; // l'indice de ligne du maximum
+			int r = -1; // r est l'indice de ligne du dernier pivot trouvé
+            if (this.GaussJordanEliminationDeterminant().Matrice[0, 0] == 0)
+                throw new Exception("Matrix is not Inversible");
+
+            for(int j=0; j<ColumnNumber; j++) // j décrit tous les indices de colonnes
+			{
+                k = r + 1;
+                for(int i=r+1; i<RowNumber - 1; i++)
+                {
+                    if (Math.Abs(matrix.Matrice[i + 1, j]) > Math.Abs(matrix.Matrice[i, j]))
+                        k = i + 1;
+				}
+                pivot = matrix.Matrice[k, j]; // A[k,j] est le pivot
+
+				if (pivot != 0) 
+				{
+                    r++;
+					// A[k,j] est le pivot
+                    for(int col = 0; col<ColumnNumber; col++) // Diviser la ligne k par pivot
+					{
+						matrix.Matrice[k, col] = matrix.Matrice[k, col] / pivot;
+						result.Matrice[k, col] = result.Matrice[k, col] / pivot;
+					}
+                    if(k != r)
+                    {
+						// Échanger les lignes k et r
+						for (int col = 0; col < ColumnNumber; col++)
+						{
+                            tempVar = matrix.Matrice[k, col];
+							matrix.Matrice[k, col] = matrix.Matrice[r, col];
+							matrix.Matrice[r, col] = tempVar;
+
+							tempVar = result.Matrice[k, col];
+							result.Matrice[k, col] = result.Matrice[r, col];
+							result.Matrice[r, col] = tempVar;
+						}
+                        
+					}
+					// On simplifie les autres lignes
+                    for(int i=0; i<RowNumber; i++)
+                    {
+                        multiple = matrix.Matrice[i, j];
+
+						if (i != r)
+                        {
+							// Soustraire à la ligne i la ligne r multipliée par A[i,j] (de façon à annuler A[i,j])
+							for (int col = 0; col < ColumnNumber; col++)
+							{
+								matrix.Matrice[i, col] = matrix.Matrice[i, col] -
+									matrix.Matrice[r, col] * multiple;
+								result.Matrice[i, col] = result.Matrice[i, col] -
+									result.Matrice[r, col] * multiple;
+							}
+						}
+					}
+				}
+			}
+			return result;
+		}
+
         //public Matrix Det(Matrix matrix)
         //{
 
@@ -172,6 +305,36 @@ namespace MatrixModel
                 }
             }
         }
+
+        public Matrix Identity(Matrix matrix)
+        {
+            var result = new Matrix(matrix.RowNumber, matrix.ColumnNumber);
+            for(int i=0; i<result.RowNumber; i++)
+            {
+				for (int j = 0; j < result.RowNumber; j++)
+                {
+                    if(i != j)
+                        result.Matrice[i, j] = 0;
+                    else
+						result.Matrice[i, j] = 1;
+				}
+            }
+            return result;
+        }
+
+        private Matrix Copy()
+        {
+            Matrix result = new Matrix(RowNumber, ColumnNumber);
+			for (int i = 0; i < RowNumber; i++)
+            {
+				for (int j = 0; j < RowNumber; j++)
+                {
+                    result.Matrice[i,j] = Matrice[i, j];
+                }
+			}
+			return result;
+		}
+        
         #endregion
     }
 }

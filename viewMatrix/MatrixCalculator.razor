@@ -161,7 +161,15 @@
 	</div>
 </div>
 
+<div style="width: 100px; margin: auto; padding-bottom: 500px;">
+	<span style="color: green">RESULT</span>
+	<div id="result">
+	</div>
+	<div style="color: red; display: @display;">@StaticOperationList.error</div>
+</div>
+
 @code {
+	string display = StaticOperationList.showError ? "block" : "none";
 	bool isOperandButtonClick = false;
 
 	string _currentButton = string.Empty;
@@ -190,7 +198,7 @@
 
 	public string CurrentOperandButton = string.Empty;
 
-	List<string> buttonActions = new List<string>();
+	public static List<string> buttonActions = new List<string>();
 	public int Row = 3;
 	public int Columne = 3;
 
@@ -202,20 +210,34 @@
 		{
 			case "matrice":
 				buttonActions.Add("matrice");
+				StaticOperationList.OperandList.Add(mat);
 				break;
 			case "determinant":
 				buttonActions.Add("determinant");
+				StaticOperationList.OperandList.Add(mat.GaussJordanEliminationDeterminant());
 				break;
 			case "inverse":
 				buttonActions.Add("inverse");
+				try
+				{
+					StaticOperationList.OperandList.Add(mat.GaussJordanEliminationIverse());
+					StaticOperationList.showError = false;
+				}
+				catch(Exception e)
+				{
+					StaticOperationList.showError = true;
+					StaticOperationList.error = e.Message;
+					StaticOperationList.OperandList.Add(mat);
+				}
 				break;
 
 		}
-		StaticOperationList.Calculator.OperandList = StaticOperationList.MatrixList;
+		StaticOperationList.Calculator.OperandList = StaticOperationList.OperandList;
 		StaticOperationList.Calculator.OperatorsList = StaticOperationList.OperatorList;
 		StaticOperationList.Calculator.Execute();
 		isOperandButtonClick = true;
 		var js = new ExampleJsInterop(jsRuntime);
 		await js.UpdateResult(StaticOperationList.Calculator.Result);
+		string display = StaticOperationList.showError ? "block" : "none";
 	}
 }

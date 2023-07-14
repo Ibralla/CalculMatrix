@@ -36,7 +36,8 @@
 				StaticOperationList.MatrixList.ElementAt(int.Parse(indexes[0])-1).Matrice[int.Parse(indexes[1]), int.Parse(indexes[2])] = intValue;
 			}
 		}
-		StaticOperationList.Calculator.OperandList = StaticOperationList.MatrixList;
+		StaticOperationList.UpdateOperation(MatrixCalculator.buttonActions);
+		StaticOperationList.Calculator.OperandList = StaticOperationList.OperandList;
 		StaticOperationList.Calculator.OperatorsList = StaticOperationList.OperatorList;
 		StaticOperationList.Calculator.Execute();
 		await js.UpdateResult(StaticOperationList.Calculator.Result);

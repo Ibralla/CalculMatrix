@@ -16,6 +16,12 @@ export function getInputID() {
     return id;
 }
 
+export function showError() {
+    $(".input").keyup(function () {
+        id = $(this).attr("id");
+    });
+    return id;
+}
 
 export function updateResult(data) {
     const myArray = data.split("\n");
