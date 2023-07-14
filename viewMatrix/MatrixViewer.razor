@@ -1,0 +1,49 @@
+﻿@inject IJSRuntime jsRuntime
+
+@if(Matrix != null)
+{
+	<div>
+		@{
+			int numOperand = StaticOperationList.MatrixList.Count;
+			for (int i = 0; i < Matrix.RowNumber; i++)
+			{
+				<p style="margin-top: 0px; margin-bottom: 0px;">
+					@for (int j = 0; j < Matrix.ColumnNumber; j++)
+					{
+						<span id="@numOperand @i @j" class="input mx-1" role="textbox" @onclick="InputClicked" contenteditable @onkeyup="MatrixChanged">0</span>
+					}
+				</p>
+			}
+		}
+	</div>
+}
+
+@code{
+	[Parameter]
+	public Matrix Matrix{ get; set; }
+
+	public async Task MatrixChanged()
+	{
+		var js = new ExampleJsInterop(jsRuntime);
+		var value = await js.GetInputvalue();
+		var id = await js.getInputID();
+		double intValue;
+
+		var indexes = id?.Split(' ');
+		if(indexes != null)
+		{
+			if (double.TryParse(value, out intValue)) {
+				StaticOperationList.MatrixList.ElementAt(int.Parse(indexes[0])-1).Matrice[int.Parse(indexes[1]), int.Parse(indexes[2])] = intValue;
+			}
+		}
+		StaticOperationList.Calculator.OperandList = StaticOperationList.MatrixList;
+		StaticOperationList.Calculator.OperatorsList = StaticOperationList.OperatorList;
+		StaticOperationList.Calculator.Execute();
+		await js.UpdateResult(StaticOperationList.Calculator.Result);
+	}
+
+	public async Task InputClicked()
+	{
+		await MatrixChanged();
+	}
+}

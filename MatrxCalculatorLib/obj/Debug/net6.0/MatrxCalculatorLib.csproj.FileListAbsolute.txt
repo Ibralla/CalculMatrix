@@ -1,0 +1,15 @@
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\bin\Debug\net6.0\MatrxCalculatorLib.deps.json
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\bin\Debug\net6.0\MatrxCalculatorLib.dll
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\bin\Debug\net6.0\MatrxCalculatorLib.pdb
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\bin\Debug\net6.0\MatrixModel.dll
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\bin\Debug\net6.0\MatrixModel.pdb
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\obj\Debug\net6.0\MatrxCalculatorLib.csproj.AssemblyReference.cache
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\obj\Debug\net6.0\MatrxCalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\obj\Debug\net6.0\MatrxCalculatorLib.AssemblyInfoInputs.cache
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\obj\Debug\net6.0\MatrxCalculatorLib.AssemblyInfo.cs
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\obj\Debug\net6.0\MatrxCalculatorLib.csproj.CoreCompileInputs.cache
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\obj\Debug\net6.0\MatrxCalculatorLib.csproj.CopyComplete
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\obj\Debug\net6.0\MatrxCalculatorLib.dll
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\obj\Debug\net6.0\refint\MatrxCalculatorLib.dll
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\obj\Debug\net6.0\MatrxCalculatorLib.pdb
+C:\Users\GABERA\source\PrésentationPOC\MatrxCalculatorLib\obj\Debug\net6.0\ref\MatrxCalculatorLib.dll

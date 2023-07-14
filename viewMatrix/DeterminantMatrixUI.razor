@@ -1,0 +1,17 @@
+﻿<div style="border-right : 2px solid; border-left : 2px solid; display: inline-block; padding: 3px;">
+	<MatrixViewer Matrix="@init()" />
+</div>
+
+@code {
+	[Parameter]
+	public int Row { get; set; }
+
+	[Parameter]
+	public int Column { get; set; }
+
+	public Matrix init()
+	{
+		var matrix = new Matrix(Row, Column);
+		return matrix;
+	}
+}

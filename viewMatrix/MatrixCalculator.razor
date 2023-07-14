@@ -1,0 +1,221 @@
+﻿@inject IJSRuntime jsRuntime
+
+<div  class="container " style="width:30rem">
+	<div id="toolBar" class="row border border-2 p-2">
+		<div class="col-6  border-end border-3 border-dark">
+			<button @onclick=@(() => CurrentOperandButton = "matrice") class="btn px-0 maticeSimple" id="matrice" data-bs-toggle="modal" data-bs-target="#exampleModal">
+				<svg width="59" height="20" viewBox="0 0 79 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g opacity="0.9">
+						<mask id="path-1-inside-1_101_13" fill="white">
+							<path d="M0 10C0 4.47715 4.47715 0 10 0H69C74.5228 0 79 4.47715 79 10V54C79 59.5228 74.5228 64 69 64H10C4.47715 64 0 59.5228 0 54V10Z" />
+						</mask>
+						<path d="M0 10C0 4.47715 4.47715 0 10 0H69C74.5228 0 79 4.47715 79 10V54C79 59.5228 74.5228 64 69 64H10C4.47715 64 0 59.5228 0 54V10Z" fill="#D9D9D9" fill-opacity="0.01" />
+						<path d="M0 0H79H0ZM79 64H0H79ZM10 64C3.37258 64 -2 58.6274 -2 52V12C-2 5.37258 3.37258 0 10 0C5.58172 0 2 4.47715 2 10V54C2 59.5228 5.58172 64 10 64ZM69 0C75.6274 0 81 5.37258 81 12V52C81 58.6274 75.6274 64 69 64C73.4183 64 77 59.5228 77 54V10C77 4.47715 73.4183 0 69 0Z" fill="black" mask="url(#path-1-inside-1_101_13)" />
+					</g>
+					<ellipse cx="17" cy="17.5" rx="5" ry="3.5" fill="black" fill-opacity="0.74" />
+					<ellipse cx="17" cy="35.5" rx="5" ry="3.5" fill="black" fill-opacity="0.74" />
+					<ellipse cx="17" cy="53.5" rx="5" ry="3.5" fill="black" fill-opacity="0.74" />
+					<ellipse cx="39" cy="17.5" rx="5" ry="3.5" fill="black" fill-opacity="0.74" />
+					<ellipse cx="39" cy="35.5" rx="5" ry="3.5" fill="black" fill-opacity="0.74" />
+					<ellipse cx="39" cy="53.5" rx="5" ry="3.5" fill="black" fill-opacity="0.74" />
+					<ellipse cx="61" cy="17.5" rx="5" ry="3.5" fill="black" fill-opacity="0.74" />
+					<ellipse cx="61" cy="35.5" rx="5" ry="3.5" fill="black" fill-opacity="0.74" />
+					<ellipse cx="61" cy="53.5" rx="5" ry="3.5" fill="black" fill-opacity="0.74" />
+				</svg>
+			</button>
+			<button @onclick=@(() => CurrentOperandButton = "determinant") class="btn px-0 maticeSimple" id="determinant" data-bs-toggle="modal" data-bs-target="#exampleModal">
+				<svg width="59" height="20" viewBox="0 0 79 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g opacity="0.9">
+						<mask id="path-1-inside-1_101_13" fill="white">
+							<path d="M0 0H79V50H0V0Z" />
+						</mask>
+						<path d="M0 0H79V50H0V0Z" fill="#D9D9D9" fill-opacity="0.01" />
+						<path d="M77 0V50H81V0H77ZM2 50V0H-2V50H2Z" fill="black" mask="url(#path-1-inside-1_101_13)" />
+					</g>
+					<ellipse cx="17" cy="13.6719" rx="5" ry="2.73438" fill="black" fill-opacity="0.74" />
+					<ellipse cx="17" cy="27.7344" rx="5" ry="2.73438" fill="black" fill-opacity="0.74" />
+					<ellipse cx="17" cy="41.7969" rx="5" ry="2.73438" fill="black" fill-opacity="0.74" />
+					<ellipse cx="39" cy="13.6719" rx="5" ry="2.73438" fill="black" fill-opacity="0.74" />
+					<ellipse cx="39" cy="27.7344" rx="5" ry="2.73438" fill="black" fill-opacity="0.74" />
+					<ellipse cx="39" cy="41.7969" rx="5" ry="2.73438" fill="black" fill-opacity="0.74" />
+					<ellipse cx="61" cy="13.6719" rx="5" ry="2.73438" fill="black" fill-opacity="0.74" />
+					<ellipse cx="61" cy="27.7344" rx="5" ry="2.73438" fill="black" fill-opacity="0.74" />
+					<ellipse cx="61" cy="41.7969" rx="5" ry="2.73438" fill="black" fill-opacity="0.74" />
+				</svg>
+			</button>
+			<button @onclick=@(() => CurrentOperandButton = "inverse") class="btn px-0 maticeSimple" id="inverse" data-bs-toggle="modal" data-bs-target="#exampleModal">
+				<svg width="59" height="20" viewBox="0 0 93 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g clip-path="url(#clip0_101_20)">
+						<g opacity="0.9">
+							<mask id="path-2-inside-1_101_20" fill="white">
+								<path d="M0 2H79V69H0V2Z" />
+							</mask>
+							<path d="M0 2H79V69H0V2Z" fill="#D9D9D9" fill-opacity="0.01" />
+							<path d="M77 2V69H81V2H77ZM2 69V2H-2V69H2Z" fill="black" mask="url(#path-2-inside-1_101_20)" />
+						</g>
+						<ellipse cx="17" cy="20.3203" rx="5" ry="3.66406" fill="black" fill-opacity="0.74" />
+						<ellipse cx="17" cy="39.1641" rx="5" ry="3.66406" fill="black" fill-opacity="0.74" />
+						<ellipse cx="17" cy="58.0078" rx="5" ry="3.66406" fill="black" fill-opacity="0.74" />
+						<ellipse cx="39" cy="20.3203" rx="5" ry="3.66406" fill="black" fill-opacity="0.74" />
+						<ellipse cx="39" cy="39.1641" rx="5" ry="3.66406" fill="black" fill-opacity="0.74" />
+						<ellipse cx="39" cy="58.0078" rx="5" ry="3.66406" fill="black" fill-opacity="0.74" />
+						<ellipse cx="61" cy="20.3203" rx="5" ry="3.66406" fill="black" fill-opacity="0.74" />
+						<ellipse cx="61" cy="39.1641" rx="5" ry="3.66406" fill="black" fill-opacity="0.74" />
+						<ellipse cx="61" cy="58.0078" rx="5" ry="3.66406" fill="black" fill-opacity="0.74" />
+					</g>
+					<path d="M84.4986 8.26278V9.5554H79.9844V8.26278H84.4986ZM90.3228 3.81818V14H88.7816V5.35938H88.7219L86.2859 6.95028V5.47869L88.8263 3.81818H90.3228Z" fill="black" />
+					<defs>
+						<clipPath id="clip0_101_20">
+							<rect y="2" width="79" height="67" rx="10" fill="white" />
+						</clipPath>
+					</defs>
+				</svg>
+			</button>
+		</div>
+		<div class="col-6">
+			<button @onclick=@(() => CurrentOperatorButton = "plus") class="btn px-0 maticeSimple" id="plus">
+				<svg width="59" height="20" viewBox="0 0 47 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<line y1="-3" x2="43.9382" y2="-3" transform="matrix(1 -0.000955545 0.0353521 0.999375 2.47014 25.5556)" stroke="black" stroke-width="6" />
+					<line y1="-3" x2="42.3104" y2="-3" transform="matrix(-0.0399654 -0.999201 0.999984 -0.00560053 27.6446 42.8666)" stroke="black" stroke-width="6" />
+				</svg>
+
+			</button>
+			<button @onclick=@(() => CurrentOperatorButton = "multiplication") class="btn px-0 maticeSimple" id="multiplication">
+				<svg width="59" height="20" viewBox="0 0 41 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<line x1="2.02988" y1="2.79102" x2="38.8463" y2="36.6223" stroke="black" stroke-width="6" />
+					<line x1="35.9526" y1="3.02431" x2="2.21409" y2="39.9258" stroke="black" stroke-width="6" />
+				</svg>
+
+			</button>
+			<button @onclick=@(() => CurrentOperatorButton = "moins") class="btn px-0 maticeSimple" id="moins">
+				<svg width="59" height="20" viewBox="0 0 53 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<line x1="2.73759" y1="25.8185" x2="52.7293" y2="24.9094" stroke="black" stroke-width="6" />
+				</svg>
+			</button>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+				<span class="plusMatrix p-3">
+					nombre de ligne <input @bind="Row" class="" style="width:20px" /> <br />
+					nombre de colonne  <input @bind="Columne" class="" style="width:20px" />
+				</span>
+			 
+			<div class="text-center pb-3 ">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				<button @onclick="ConfirmModal" type="button" data-bs-dismiss="modal" class="btn btn-primary">Save</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div style="height: 300px;">
+	<div id="calculatorPanel" class="d-flex" style="min-height: 100px; background-color: lightgray; padding: 10px;">
+		@{
+			int i = 0;
+			foreach (var item in buttonActions)
+			{
+				Matrix operand;
+				switch (item)
+				{
+					case "matrice":
+						operand = StaticOperationList.MatrixList.ElementAt(i);
+						<div class="align-self-center p-2">
+							<SimpleMatrixUI Row="operand.RowNumber" Column="operand.ColumnNumber" />
+						</div>
+						i++;
+						break;
+					case "determinant":
+						operand = StaticOperationList.MatrixList.ElementAt(i);
+						<div class="align-self-center p-2">
+							<DeterminantMatrixUI Row="operand.RowNumber" Column="operand.ColumnNumber" />
+						</div>
+						
+						i++;
+						break;
+					case "inverse":
+						operand = StaticOperationList.MatrixList.ElementAt(i);
+						<div class="align-self-center p-2">
+							<InverseMatrixUI Row="operand.RowNumber" Column="operand.ColumnNumber" />
+						</div>
+						
+						i++;
+						break;
+					case "plus":
+						<div class="align-self-center p-2"><h1>+</h1></div>
+						break;
+					case "multiplication":
+						<div class="align-self-center p-2"><h1>*</h1></div>
+						break;
+					case "moins":
+						<div class="align-self-center p-2"><h1>-</h1></div>
+						break;
+				}
+			}
+		}
+	</div>
+</div>
+
+@code {
+	bool isOperandButtonClick = false;
+
+	string _currentButton = string.Empty;
+	public string CurrentOperatorButton 
+	{ 
+		get => _currentButton; 
+		set
+		{
+			switch (value)
+			{
+				case "plus":
+					StaticOperationList.OperatorList.Add('+');
+					buttonActions.Add("plus");
+					break;
+				case "multiplication":
+					StaticOperationList.OperatorList.Add('*');
+					buttonActions.Add("multiplication");
+					break;
+				case "moins":
+					StaticOperationList.OperatorList.Add('-');
+					buttonActions.Add("moins");
+					break;
+			}
+		} 
+	}
+
+	public string CurrentOperandButton = string.Empty;
+
+	List<string> buttonActions = new List<string>();
+	public int Row = 3;
+	public int Columne = 3;
+
+	public async Task ConfirmModal()
+	{
+		var mat = new Matrix(Row, Columne);
+		StaticOperationList.MatrixList.Add(mat);
+		switch (CurrentOperandButton)
+		{
+			case "matrice":
+				buttonActions.Add("matrice");
+				break;
+			case "determinant":
+				buttonActions.Add("determinant");
+				break;
+			case "inverse":
+				buttonActions.Add("inverse");
+				break;
+
+		}
+		StaticOperationList.Calculator.OperandList = StaticOperationList.MatrixList;
+		StaticOperationList.Calculator.OperatorsList = StaticOperationList.OperatorList;
+		StaticOperationList.Calculator.Execute();
+		isOperandButtonClick = true;
+		var js = new ExampleJsInterop(jsRuntime);
+		await js.UpdateResult(StaticOperationList.Calculator.Result);
+	}
+}

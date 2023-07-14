@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "viewMatrix", "viewMatrix.csproj", "{04C061DD-42CF-44D4-9F1C-62C057A04425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixCalculatorClient", "..\MatrixCalculatorClient\MatrixCalculatorClient.csproj", "{2FA110CC-1E0A-4C74-9BDE-87A089DCF5E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04C061DD-42CF-44D4-9F1C-62C057A04425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C061DD-42CF-44D4-9F1C-62C057A04425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C061DD-42CF-44D4-9F1C-62C057A04425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C061DD-42CF-44D4-9F1C-62C057A04425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA110CC-1E0A-4C74-9BDE-87A089DCF5E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA110CC-1E0A-4C74-9BDE-87A089DCF5E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA110CC-1E0A-4C74-9BDE-87A089DCF5E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA110CC-1E0A-4C74-9BDE-87A089DCF5E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9767CB2B-5885-44D1-907C-79DFEB862E49}
+	EndGlobalSection
+EndGlobal

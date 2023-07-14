@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MatrxCalculatorLib/1.0.0": {
+        "dependencies": {
+          "MatrixModel": "1.0.0"
+        },
+        "runtime": {
+          "MatrxCalculatorLib.dll": {}
+        }
+      },
+      "MatrixModel/1.0.0": {
+        "runtime": {
+          "MatrixModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MatrxCalculatorLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MatrixModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

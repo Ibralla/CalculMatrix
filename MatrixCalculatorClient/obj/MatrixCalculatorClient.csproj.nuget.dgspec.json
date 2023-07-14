@@ -1,0 +1,249 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrixCalculatorClient\\MatrixCalculatorClient.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrixCalculatorClient\\MatrixCalculatorClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrixCalculatorClient\\MatrixCalculatorClient.csproj",
+        "projectName": "MatrixCalculatorClient",
+        "projectPath": "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrixCalculatorClient\\MatrixCalculatorClient.csproj",
+        "packagesPath": "C:\\Users\\GABERA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrixCalculatorClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GABERA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\GABERA\\source\\PrésentationPOC\\viewMatrix\\viewMatrix.csproj": {
+                "projectPath": "C:\\Users\\GABERA\\source\\PrésentationPOC\\viewMatrix\\viewMatrix.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrixModel\\MatrixModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrixModel\\MatrixModel.csproj",
+        "projectName": "MatrixModel",
+        "projectPath": "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrixModel\\MatrixModel.csproj",
+        "packagesPath": "C:\\Users\\GABERA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrixModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GABERA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj",
+        "projectName": "MatrxCalculatorLib",
+        "projectPath": "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj",
+        "packagesPath": "C:\\Users\\GABERA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrxCalculatorLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GABERA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrixModel\\MatrixModel.csproj": {
+                "projectPath": "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrixModel\\MatrixModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\GABERA\\source\\PrésentationPOC\\viewMatrix\\viewMatrix.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GABERA\\source\\PrésentationPOC\\viewMatrix\\viewMatrix.csproj",
+        "projectName": "viewMatrix",
+        "projectPath": "C:\\Users\\GABERA\\source\\PrésentationPOC\\viewMatrix\\viewMatrix.csproj",
+        "packagesPath": "C:\\Users\\GABERA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GABERA\\source\\PrésentationPOC\\viewMatrix\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GABERA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj": {
+                "projectPath": "C:\\Users\\GABERA\\source\\PrésentationPOC\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
