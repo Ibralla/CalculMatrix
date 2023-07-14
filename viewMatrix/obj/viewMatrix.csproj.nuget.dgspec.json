@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\viewMatrix\\viewMatrix.csproj": {}
+    "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\viewMatrix\\viewMatrix.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\MatrixModel\\MatrixModel.csproj": {
+    "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\MatrixModel\\MatrixModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\MatrixModel\\MatrixModel.csproj",
+        "projectUniqueName": "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\MatrixModel\\MatrixModel.csproj",
         "projectName": "MatrixModel",
-        "projectPath": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\MatrixModel\\MatrixModel.csproj",
+        "projectPath": "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\MatrixModel\\MatrixModel.csproj",
         "packagesPath": "C:\\Users\\GABERA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\MatrixModel\\obj\\",
+        "outputPath": "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\MatrixModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj": {
+    "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj",
+        "projectUniqueName": "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj",
         "projectName": "MatrxCalculatorLib",
-        "projectPath": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj",
+        "projectPath": "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj",
         "packagesPath": "C:\\Users\\GABERA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\MatrxCalculatorLib\\obj\\",
+        "outputPath": "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\MatrxCalculatorLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\MatrixModel\\MatrixModel.csproj": {
-                "projectPath": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\MatrixModel\\MatrixModel.csproj"
+              "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\MatrixModel\\MatrixModel.csproj": {
+                "projectPath": "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\MatrixModel\\MatrixModel.csproj"
               }
             }
           }
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\viewMatrix\\viewMatrix.csproj": {
+    "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\viewMatrix\\viewMatrix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\viewMatrix\\viewMatrix.csproj",
+        "projectUniqueName": "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\viewMatrix\\viewMatrix.csproj",
         "projectName": "viewMatrix",
-        "projectPath": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\viewMatrix\\viewMatrix.csproj",
+        "projectPath": "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\viewMatrix\\viewMatrix.csproj",
         "packagesPath": "C:\\Users\\GABERA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\viewMatrix\\obj\\",
+        "outputPath": "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\viewMatrix\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -157,8 +157,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj": {
-                "projectPath": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj"
+              "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj": {
+                "projectPath": "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\MatrxCalculatorLib\\MatrxCalculatorLib.csproj"
               }
             }
           }

@@ -1,8 +1,14 @@
 ﻿@inject IJSRuntime jsRuntime
 
-<div  class="container " style="width:30rem">
+<div  class="container " style="width:35rem">
 	<div id="toolBar" class="row border border-2 p-2">
-		<div class="col-6  border-end border-3 border-dark">
+		<div class="col-7  border-end border-3 border-dark">
+			<button class="btn px-0 maticeSimple">
+				<svg width="59" height="20" viewBox="0 0 29 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<rect x="1" y="1" width="27" height="29" fill="white" stroke="black" stroke-width="2" />
+					<path d="M16.9274 7.78798C17.1545 7.78135 17.3577 7.79437 17.5367 7.82703C17.7157 7.85591 17.8397 7.8864 17.9089 7.91848L17.6026 9.10975C17.2745 9.03596 16.9859 9.01407 16.7367 9.04409C16.4874 9.0741 16.2692 9.19226 16.082 9.39857C15.8908 9.60121 15.7203 9.9264 15.5705 10.3741L15.3405 11.063L18.8224 19.7378L17.3685 19.7802L14.7574 12.899L14.6666 12.9016L12.4615 19.9235L11.0076 19.966L14.4187 9.86209C14.5721 9.40666 14.7676 9.02769 15.005 8.72517C15.2424 8.41887 15.5218 8.18903 15.8432 8.03564C16.1609 7.88237 16.5222 7.79981 16.9274 7.78798Z" fill="black" />
+				</svg>
+			</button>
 			<button @onclick=@(() => CurrentOperandButton = "matrice") class="btn px-0 maticeSimple" id="matrice" data-bs-toggle="modal" data-bs-target="#exampleModal">
 				<svg width="59" height="20" viewBox="0 0 79 64" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g opacity="0.9">
@@ -72,7 +78,7 @@
 				</svg>
 			</button>
 		</div>
-		<div class="col-6">
+		<div class="col-5">
 			<button @onclick=@(() => CurrentOperatorButton = "plus") class="btn px-0 maticeSimple" id="plus">
 				<svg width="59" height="20" viewBox="0 0 47 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<line y1="-3" x2="43.9382" y2="-3" transform="matrix(1 -0.000955545 0.0353521 0.999375 2.47014 25.5556)" stroke="black" stroke-width="6" />

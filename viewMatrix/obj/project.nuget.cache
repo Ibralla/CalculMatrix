@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2gQEtSyyJ2SqrzKNvYmkC0Yyyh0h8BjR2rBx3+pgOovwLQw+truqBx8RyJ0wd+4yhVP012HcTSJmrSFdbQn10g==",
+  "dgSpecHash": "0ndmKujE0txyhf1vOLQJk/W3X7WGhRdFCUn3goi2NnOP2IJWGsez5mUUCZwNvNnC4PPyxifQqJo7lDrnEguHBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\GABERA\\Source\\Repos\\CalculMatrix\\viewMatrix\\viewMatrix.csproj",
+  "projectFilePath": "C:\\Users\\GABERA\\source\\repos\\CalculMatrix\\viewMatrix\\viewMatrix.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GABERA\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.11\\microsoft.aspnetcore.authorization.6.0.11.nupkg.sha512",
     "C:\\Users\\GABERA\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.11\\microsoft.aspnetcore.components.6.0.11.nupkg.sha512",
